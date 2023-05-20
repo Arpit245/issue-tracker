@@ -1,0 +1,13 @@
+<div class="w-50   p-5 m-auto">
+    <h3 class="p-4 mb-2 bg-info text-muted">
+      Project : <%= project.name %>
+    </h3>
+    <h4 class="p-4 mb-2 bg-light text-muted">
+      Author : <%= project.author %>
+    </h4>
+    <h5 class="p-4 mb-2 bg-info text-muted">
+      Description : <%= project.description %>
+    </h5>
+  </div>
+  <!-- including buttons for issues -->
+  <%-include('./partials/_issues'); %>
